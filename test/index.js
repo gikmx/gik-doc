@@ -15,4 +15,10 @@ describe('FaiDoc', function(){
 		expect(doc).to.equal(mark);
 	});
 
+	it('should handle empty results', function(){
+		let fn = ()=> FaiDoc('');
+		expect(fn).to.not.throw(Error);
+		expect(fn()).to.equal('');
+	});
+
 });
