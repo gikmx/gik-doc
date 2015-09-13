@@ -15,7 +15,7 @@ const Mocha  = require('gulp-spawn-mocha');
 const Watch  = require('gulp-watch');
 const Del    = require('del');
 const Chalk  = require('chalk');
-
+const FaiDoc = require('fai-doc');
 
 //------------------------------------------------------------------------- PATHS & ROUTES
 
@@ -78,6 +78,11 @@ Config.mocha = {
 
 Gulp.task('clean', function(callback){
 	Del([Dir.build, Dir.coverage], callback);
+});
+
+Gulp.task('doc', function(callback){
+	FaiDoc()
+	callback()
 });
 
 Gulp.task('lint-self', ()=>
