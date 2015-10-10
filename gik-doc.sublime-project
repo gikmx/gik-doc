@@ -5,7 +5,7 @@
 			"file_exclude_patterns":
 			[
 				".git",
-				"fai-doc.sublime-project"
+				"gik-doc.sublime-project"
 			],
 			"folder_exclude_patterns":
 			[

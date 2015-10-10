@@ -21,7 +21,7 @@ let shown = false;
 //» I will be ignored, because I don't have a 'closer'.
 
 /*»
-	I won't be shown, nor everything belowe me, since I don't have a 'closer'.
+	I won't be shown, nor everything below me, since I don't have a 'closer'.
 */
 
 class Test {

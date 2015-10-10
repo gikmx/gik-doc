@@ -1,23 +1,24 @@
 {
-  "name": "fai-doc",
-  "version": "0.0.3",
+  "name": "gik-doc",
+  "version": "0.0.4",
   "description": "A minimal documentation generator.",
-  "main": "build",
+  "main": "build/index.js",
   "keywords": [
-    "fai",
-    "ﬁ",
+    "comment",
+    "markdown",
+    "doc",
     "documentation",
     "generator"
   ],
   "author": "Héctor Menéndez <etor@gik.mx> (http://gik.mx)",
-  "license": "MIT",
-  "homepage": "https://github.com/gikmx/fai-doc",
+  "license": "ISC",
+  "homepage": "https://github.com/gikmx/gik-doc",
   "bugs": {
-    "url": "https://github.com/gikmx/fai-doc/issues"
+    "url": "https://github.com/gikmx/gik-doc/issues"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/gikmx/fai-doc.git"
+    "url": "http://github.com/gikmx/gik-doc.git"
   },
   "scripts": {
     "prepublish" : "gulp build",
@@ -27,8 +28,8 @@
     "gulp"       : "gulp"
   },
   "devDependencies": {
-    "chai" : "^3.3.0",
     "gik"  : "*",
+    "chai" : "^3.3.0",
     "gulp" : "^3.9.0"
   },
   "dependencies": {
