@@ -1,3 +1,8 @@
+### [0.0.5-b1]
+- `FIX` Ignored log files from sublime-project.
+- `FIX` Unignored coverage report from NPM.
+- `FIX` Removed title on `README` it looked ugly on NPM. And it wasn't updated.
+
 ### [0.0.4] New name, baby!
 - `FIX` Change licensing from MIT to ISC
 - `FIX` Moved examples out of the test folder, so they don't get transpiled.

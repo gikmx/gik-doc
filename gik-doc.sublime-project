@@ -5,7 +5,8 @@
 			"file_exclude_patterns":
 			[
 				".git",
-				"gik-doc.sublime-project"
+				"gik-doc.sublime-project",
+				"*.log"
 			],
 			"folder_exclude_patterns":
 			[

@@ -1,5 +1,3 @@
-# fai-doc
-
 A minimal documentation parser.
 
 ## Example
